@@ -1,5 +1,6 @@
 import models.Circle;
 import models.Rectangle;
+import models.Shape;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,5 +23,9 @@ public class Main {
 
         rectangle = new Rectangle(2.5, 3.8, "orange", true);
         System.out.println(rectangle);
+
+//        Shape shape = new Circle();
+//
+//        System.out.println(((Circle)shape).getRadius());;
     }
 }
